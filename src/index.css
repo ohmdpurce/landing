@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@font-face {
+  font-family: DBAiry; /* ตั้งชื่อ font-family ที่คุณต้องการ */
+  src: url("./assets/fonts/DBAiryStd.ttf") format("truetype"); /* ตั้งตำแหน่งของ font ที่คุณอัปโหลด */
+}
+
+#root {
+  /* font-family: "Noto Sans Thai", sans-serif; */
+  /* font-family: "DBAiry", "Noto Sans Thai"; */
+  font-family: "DBAiry";
+  margin: 0 auto;
+  /* background-color: #fff8e8; */
+}
+
+* {
+  box-sizing: border-box;
+  --color-dark-blue: #172e55;
+  --color-gold: #a57219;
+  --color-bg-light: #e7ecee;
+}
+
+.container-fluid {
+  padding: 0 0px;
+}
